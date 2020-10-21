@@ -4,6 +4,8 @@ import clsx from 'clsx'
 import { AppBar, Divider, Drawer, IconButton, makeStyles, Toolbar, List } from '@material-ui/core'
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import { mainListItems, secondaryListItems } from './ListItems';
+
+
 const drawerWidth = 240;
 
 const useStyles = makeStyles((theme) => ({
@@ -102,7 +104,9 @@ const Dashboard = () => {
     return (
         <div className={classes.root}>
             <AppBar position="absolute" >
-            <Toolbar className={classes.toolbar}></Toolbar>
+            <Toolbar className={classes.toolbar}>
+                
+            </Toolbar>
             </AppBar>
             <Drawer
                 variant="permanent"
